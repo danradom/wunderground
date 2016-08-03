@@ -1,2 +1,2 @@
-# wu
+# wunderground
 weather underground scripts
