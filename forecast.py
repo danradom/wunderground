@@ -27,7 +27,7 @@ for i in range(periods):
         temp_low = int(forecast[i]['low']['fahrenheit'])
         temp_high = int(forecast[i]['high']['fahrenheit'])
         cond = str(forecast[i]['conditions'])
-       rain_chance = int(forecast[i]['pop'])
+        rain_chance = int(forecast[i]['pop'])
         precipitation = str(forecast[i]['qpf_allday']['in'])
         details = str(weather[i]['fcttext'])
 
