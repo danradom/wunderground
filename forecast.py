@@ -34,9 +34,9 @@ for i in range(periods):
         print "%s:  %s" % (period, cond)
         print "low:  %sF " % temp_low
         print "high:  %sF " % temp_high
-       print "chance of rain:  %s%%" % rain_chance
-       if rain_chance > 0:
-               print "precipitation amount:  %s inches" % precipitation
+        print "chance of rain:  %s%%" % rain_chance
+        if rain_chance > 0:
+                print "precipitation amount:  %s inches" % precipitation
         print "forecast:  %s" % details
 
         print "\n"
